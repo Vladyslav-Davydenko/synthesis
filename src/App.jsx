@@ -20,20 +20,29 @@ export default function App() {
         {/* Main Content */}
         <div className="flex-1 overflow-auto p-8">
           <Routes>
-            <Route path="/" element={<Introduction />} />
-            <Route path="/decision-framework" element={<DecisionFramework />} />
+            <Route path="/synthesis/" element={<Introduction />} />
             <Route
-              path="/secure-architecture"
+              path="/synthesis/decision-framework"
+              element={<DecisionFramework />}
+            />
+            <Route
+              path="/synthesis/secure-architecture"
               element={<SecureArchitecture />}
             />
-            <Route path="/input-validation" element={<InputValidation />} />
-            <Route path="/api-security" element={<ApiSecurity />} />
-            <Route path="/data-pipeline" element={<DataPipelineSecurity />} />
             <Route
-              path="/monitoring-systems"
+              path="/synthesis/input-validation"
+              element={<InputValidation />}
+            />
+            <Route path="/synthesis/api-security" element={<ApiSecurity />} />
+            <Route
+              path="/synthesis/data-pipeline"
+              element={<DataPipelineSecurity />}
+            />
+            <Route
+              path="/synthesis/monitoring-systems"
               element={<MonitoringAndDetection />}
             />
-            <Route path="/summary" element={<Summary />} />
+            <Route path="/synthesis/summary" element={<Summary />} />
           </Routes>
         </div>
       </div>

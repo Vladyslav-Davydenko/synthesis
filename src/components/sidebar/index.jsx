@@ -4,14 +4,17 @@ export const Sidebar = () => {
   const location = useLocation();
 
   const navItems = [
-    { path: "/", title: "Introduction" },
-    { path: "/decision-framework", title: "Decision Framework" },
-    { path: "/secure-architecture", title: "Secure Architecture Design" },
-    { path: "/input-validation", title: "Input Validation" },
-    { path: "/api-security", title: "API Security Implementation" },
-    { path: "/data-pipeline", title: "Data Pipeline Security" },
-    { path: "/monitoring-systems", title: "Monitoring Systems" },
-    { path: "/summary", title: "Summary" },
+    { path: "/synthesis/", title: "Introduction" },
+    { path: "/synthesis/decision-framework", title: "Decision Framework" },
+    {
+      path: "/synthesis/secure-architecture",
+      title: "Secure Architecture Design",
+    },
+    { path: "/synthesis/input-validation", title: "Input Validation" },
+    { path: "/synthesis/api-security", title: "API Security Implementation" },
+    { path: "/synthesis/data-pipeline", title: "Data Pipeline Security" },
+    { path: "/synthesis/monitoring-systems", title: "Monitoring Systems" },
+    { path: "/synthesis/summary", title: "Summary" },
   ];
 
   return (

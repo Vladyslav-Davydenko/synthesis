@@ -25,13 +25,13 @@ export const Introduction = () => (
       <h3 className="text-xl font-bold mt-6 mb-4">Table of Contents</h3>
       <ul className="list-disc ml-6 mb-4">
         <li>
-          <Link to={"/"} className="text-blue-600 hover:underline">
+          <Link to={"/synthesis/"} className="text-blue-600 hover:underline">
             Introduction
           </Link>
         </li>
         <li>
           <Link
-            to={"/decision-framework"}
+            to={"/synthesis/decision-framework"}
             className="text-blue-600 hover:underline"
           >
             Decision Framework
@@ -39,7 +39,7 @@ export const Introduction = () => (
         </li>
         <li>
           <Link
-            to={"/secure-architecture"}
+            to={"/synthesis/secure-architecture"}
             className="text-blue-600 hover:underline"
           >
             Secure Architecture Design
@@ -47,32 +47,41 @@ export const Introduction = () => (
         </li>
         <li>
           <Link
-            to={"/input-validation"}
+            to={"/synthesis/input-validation"}
             className="text-blue-600 hover:underline"
           >
             Input Validation
           </Link>
         </li>
         <li>
-          <Link to={"/api-security"} className="text-blue-600 hover:underline">
+          <Link
+            to={"/synthesis/api-security"}
+            className="text-blue-600 hover:underline"
+          >
             API Security
           </Link>
         </li>
         <li>
-          <Link to={"/data-pipeline"} className="text-blue-600 hover:underline">
+          <Link
+            to={"/synthesis/data-pipeline"}
+            className="text-blue-600 hover:underline"
+          >
             Data Pipeline Security
           </Link>
         </li>
         <li>
           <Link
-            to={"/monitoring-systems"}
+            to={"/synthesis/monitoring-systems"}
             className="text-blue-600 hover:underline"
           >
             Monitoring and Detection Systems
           </Link>
         </li>
         <li>
-          <Link to={"/summary"} className="text-blue-600 hover:underline">
+          <Link
+            to={"/synthesis/summary"}
+            className="text-blue-600 hover:underline"
+          >
             Summary
           </Link>
         </li>
